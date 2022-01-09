@@ -37,6 +37,7 @@ void loop() {
   delay(1000);                       // wait for a second
   if (count < 3) {
     delay(3000);
+    delay(2000);
   }
   count++;
 }
